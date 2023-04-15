@@ -1,0 +1,96 @@
+#home {
+  height: 100%;
+  padding-top: 10rem;
+  overflow: hidden;
+}
+
+.greeting__container {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 50% 35%;
+  gap: 15%;
+  /* justify-items: center; */
+  align-items: center;
+  padding: 1rem 0;
+}
+.greeting__container .greet {
+  color: #fff;
+}
+.greeting__container .role {
+  margin-bottom: 3rem;
+  font-weight: 600;
+}
+
+.greeting__container h1 {
+  font-size: 62px;
+  background: -webkit-linear-gradient(45deg, #7cd2db, #ea97ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.cta {
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+}
+.about__me {
+  width: 70%;
+  aspect-ratio: 1/1;
+  border-radius: 2rem;
+  background: linear-gradient(270deg, #7cd2db, #ea97ff);
+  display: grid;
+  place-items: center;
+  transform: rotate(10deg);
+  transition: var(--transition);
+}
+
+.about__me-image {
+  border-radius: 2rem;
+  overflow: hidden;
+  transform: rotate(-10deg);
+  transition: var(--transition);
+}
+.wave {
+  animation-name: wave-animation;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+    0% { transform: rotate( 0.0deg) }
+   10% { transform: rotate(14.0deg) }
+   20% { transform: rotate(-8.0deg) }
+   30% { transform: rotate(14.0deg) }
+   40% { transform: rotate(-4.0deg) }
+   50% { transform: rotate(10.0deg) }
+   60% { transform: rotate( 0.0deg) }
+  100% { transform: rotate( 0.0deg) }
+}
+
+@media screen and (max-width: 1024px){
+  #home {
+    padding-top: 9rem;
+  }
+  .greeting__container {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .about__me {
+    width: 50%;
+    margin: 2rem auto 4rem; 
+  }
+}
+
+@media screen and (max-width: 600px){
+  .about__me {
+    width: 65%;
+    margin: 4rem auto 3rem; 
+  }
+  .greeting__container h1 {
+    font-size: 42px;
+  }
+}

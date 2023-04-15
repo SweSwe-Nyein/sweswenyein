@@ -1,0 +1,39 @@
+#about {
+  text-align: center;
+}
+#about h3 {
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+#about h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+.about__container {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 35% 50%;
+  gap: 15%;
+  /* justify-items: center; */
+  align-items: center;
+  padding: 1rem 0;
+}
+.about__container p {
+  line-height: 1.8rem;
+  color: #fff;
+  text-align: justify;
+}
+@media screen and (max-width: 1024px){
+  .about__container {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+}
+
+@media screen and (max-width: 600px){
+  .about_image img {
+    width: 70%;
+    margin: 0 auto 2rem auto;
+  }
+}

@@ -1,0 +1,38 @@
+header {
+  background-image: linear-gradient(270deg, #ea97ff75, #7cd2db5e);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  width: max-content;
+  display: block;
+  padding: 0.7rem 1.7rem;
+  z-index: 2;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 1rem;
+  display: flex;
+  gap: 0.8rem;
+  border-radius: 3rem;
+  backdrop-filter: blur(15px);
+}
+
+header a {
+  background: transparent;
+  padding: 0.9rem;
+  border-radius: 50%;
+  display: flex;
+  color: var(--color-white);
+  font-size: 1.1rem;
+}
+
+header a:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+header a.active {
+  background: var(--color-bg);
+  color: var(--color-white);
+}
