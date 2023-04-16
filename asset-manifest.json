@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sweswenyein/static/css/main.daf426ef.css",
-    "main.js": "/sweswenyein/static/js/main.5657103c.js",
+    "main.js": "/sweswenyein/static/js/main.d37866f0.js",
     "static/js/787.304b55d0.chunk.js": "/sweswenyein/static/js/787.304b55d0.chunk.js",
     "static/media/seinnandaw.png": "/sweswenyein/static/media/seinnandaw.99dbf9155d9b8098bd42.png",
     "static/media/shweshops.png": "/sweswenyein/static/media/shweshops.a3f145f5ca813b7cdf34.png",
@@ -10,11 +10,11 @@
     "static/media/me.jpg": "/sweswenyein/static/media/me.e743e8435d5faeed25af.jpg",
     "index.html": "/sweswenyein/index.html",
     "main.daf426ef.css.map": "/sweswenyein/static/css/main.daf426ef.css.map",
-    "main.5657103c.js.map": "/sweswenyein/static/js/main.5657103c.js.map",
+    "main.d37866f0.js.map": "/sweswenyein/static/js/main.d37866f0.js.map",
     "787.304b55d0.chunk.js.map": "/sweswenyein/static/js/787.304b55d0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.daf426ef.css",
-    "static/js/main.5657103c.js"
+    "static/js/main.d37866f0.js"
   ]
 }
