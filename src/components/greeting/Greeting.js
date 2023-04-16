@@ -16,7 +16,7 @@ const Greeting = () => {
             {/* <a href={CV} download className="btn">
               Download CV
             </a> */}
-            <a href="https://drive.google.com/file/d/14mqiZEobGS_8SElv0CGmHajmkX9-avqs/view?usp=share_link" className="btn" target="_blank" rel="noreferrer">
+            <a href="https://drive.google.com/file/d/13VHA9z9KQ6gTvymZ_VSCF4iCXnTRV7sd/view?usp=share_link" className="btn" target="_blank" rel="noreferrer">
               Download CV
             </a>
             <a href="#contact" className="btn btn-primary">
