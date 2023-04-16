@@ -9,7 +9,9 @@
   font-size: 32px;
   font-weight: bold;
 }
-
+.experience__details h4 {
+  font-weight: 600;
+}
 .experience__container > div {
   background: rgba( 0, 0, 0, 0.25 );
   box-shadow: 2px 3px 20px 0px rgba( 31, 38, 135, 0.37 );

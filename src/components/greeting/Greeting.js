@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './greeting.css';
-import CV from '../../assets/CV.pdf';
+// import CV from '../../assets/CV.pdf';
 import ME from '../../assets/images/me.jpg';
 
 const Greeting = () => {
@@ -16,7 +16,7 @@ const Greeting = () => {
             {/* <a href={CV} download className="btn">
               Download CV
             </a> */}
-            <a href="https://drive.google.com/file/d/1OdVE-a8ZUxyQqr3pqIqb32QXbAjs6CWV/view?usp=share_link" className="btn" target="_blank">
+            <a href="https://drive.google.com/file/d/14mqiZEobGS_8SElv0CGmHajmkX9-avqs/view?usp=share_link" className="btn" target="_blank" rel="noreferrer">
               Download CV
             </a>
             <a href="#contact" className="btn btn-primary">
