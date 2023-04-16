@@ -1,21 +1,20 @@
 {
   "files": {
-    "main.css": "/sweswenyein/static/css/main.b0639d6a.css",
-    "main.js": "/sweswenyein/static/js/main.8c224536.js",
+    "main.css": "/sweswenyein/static/css/main.daf426ef.css",
+    "main.js": "/sweswenyein/static/js/main.ffa05205.js",
     "static/js/787.304b55d0.chunk.js": "/sweswenyein/static/js/787.304b55d0.chunk.js",
     "static/media/seinnandaw.png": "/sweswenyein/static/media/seinnandaw.99dbf9155d9b8098bd42.png",
     "static/media/shweshops.png": "/sweswenyein/static/media/shweshops.a3f145f5ca813b7cdf34.png",
     "static/media/kathit.png": "/sweswenyein/static/media/kathit.90361be39610ce3e859f.png",
     "static/media/programmer.png": "/sweswenyein/static/media/programmer.3c6f64246eca0d6c8408.png",
-    "static/media/CV.pdf": "/sweswenyein/static/media/CV.34b9e8ebb9de4bc279ce.pdf",
-    "static/media/me.jpg": "/sweswenyein/static/media/me.747c8ac303cf5d016ad2.jpg",
+    "static/media/me.jpg": "/sweswenyein/static/media/me.e743e8435d5faeed25af.jpg",
     "index.html": "/sweswenyein/index.html",
-    "main.b0639d6a.css.map": "/sweswenyein/static/css/main.b0639d6a.css.map",
-    "main.8c224536.js.map": "/sweswenyein/static/js/main.8c224536.js.map",
+    "main.daf426ef.css.map": "/sweswenyein/static/css/main.daf426ef.css.map",
+    "main.ffa05205.js.map": "/sweswenyein/static/js/main.ffa05205.js.map",
     "787.304b55d0.chunk.js.map": "/sweswenyein/static/js/787.304b55d0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b0639d6a.css",
-    "static/js/main.8c224536.js"
+    "static/css/main.daf426ef.css",
+    "static/js/main.ffa05205.js"
   ]
 }
