@@ -7,7 +7,6 @@ const ResumeButton = () => {
 		<Link
 			href="https://drive.google.com/drive/folders/1uIHFIzoblSkR-wHmHoSCVYhA2PnRPdrG?usp=drive_link"
 			target="_blank"
-			download
 		>
 			<button
 				type="button"
