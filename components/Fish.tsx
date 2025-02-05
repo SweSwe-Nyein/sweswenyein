@@ -8,11 +8,15 @@ if (typeof window !== "undefined") {
   gsap.registerPlugin(CSSPlugin);
 }
 
-function Test() {
+const Fish = () => {
+  let rx: number;
+  let ry: number;
+  
+  if (typeof window !== "undefined") {
+    rx = window.innerWidth < 1000 ? window.innerWidth / 1200 : 1;
+    ry = window.innerHeight < 700 ? window.innerHeight / 1200 : 1;
+  }
 
-  const rx = window.innerWidth < 1000 ? window.innerWidth / 1200 : 1;
-  const ry = window.innerHeight < 700 ? window.innerHeight / 1200 : 1;
-    
   const path = [
     { x: 800, y: 200 },
     { x: 900, y: 20 },
@@ -94,4 +98,4 @@ function Test() {
   )
 }
 
-export default Test;
+export default Fish;

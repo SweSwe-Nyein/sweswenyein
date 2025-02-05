@@ -1,6 +1,6 @@
 import { Contact, Experience, Hero, Navbar, StarsCanvas, Tech, Works } from "@/components";
 import Footer from "@/components/Footer";
-import Test from "@/components/Test";
+import Fish from "@/components/Fish";
 
 export default function Home() {
 	return (
@@ -16,7 +16,7 @@ export default function Home() {
 				<Works />
 				<Contact />
 				<Footer />
-				<Test />
+				<Fish />
 			</div>
 		</div>
 	);

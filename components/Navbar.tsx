@@ -12,14 +12,15 @@ const Navbar = () => {
 
 	useEffect(() => {
 		const handleScroll = () => {
-			const scrollTop = window.scrollY;
-			if (scrollTop > 100) {
-				setScrolled(true);
-			} else {
-				setScrolled(false);
+			if (typeof window !== "undefined") {
+				const scrollTop = window.scrollY;
+				if (scrollTop > 100) {
+					setScrolled(true);
+				} else {
+					setScrolled(false);
+				}
 			}
 		};
-
 		window.addEventListener("scroll", handleScroll);
 
 		return () => window.removeEventListener("scroll", handleScroll);
