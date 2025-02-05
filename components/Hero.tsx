@@ -34,13 +34,13 @@ const Hero = () => {
 					</div>
 					<div className="mt-8">
 						<div className="flex gap-6 mt-2">
-							<a href="https://github.com/SweSwe-Nyein" className="social-icon">
+							<a href="https://github.com/SweSwe-Nyein" target="_blank" className="social-icon">
 								<img src="/github.svg" alt="github" className="w-5 h-5" />
 							</a>
-							<a href="https://www.facebook.com/sweswenyein20" className="social-icon">
+							<a href="https://www.facebook.com/sweswenyein20" target="_blank" className="social-icon">
 								<img src="/facebook.svg" alt="twitter" className="w-5 h-5" />
 							</a>
-							<a href="https://www.instagram.com/sweswe.be/?hl=en" className="social-icon">
+							<a href="https://www.instagram.com/sweswe.be/?hl=en" target="_blank" className="social-icon">
 								<img src="/instagram.svg" alt="instagram" className="w-5 h-5" />
 							</a>
 						</div>

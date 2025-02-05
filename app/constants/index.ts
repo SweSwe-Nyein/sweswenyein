@@ -70,6 +70,7 @@ const experiences = [
 		company_name: "LR Tech",
 		date: "September 2023 -  Present",
 		points: [
+			"I am working with a diverse team from the Philippines, Japan, and China.",
 			"I am responsible for implementing Frontend, optimizing performance, and ensuring cross-browser compatibility",
 			"With NuxtJs, Vuetify, and Pinia state management, I build interactive and efficient web applications."
 		],
@@ -139,6 +140,26 @@ const projects :{
 		deploy_link: "#",
 	},
 	{
+		name: "SOS",
+		description: "I developed the 'SOS' project using Matter.js to explore JavaScript physics engines and gain a deeper understanding of physics-based animations and interactions.",
+		tags: [
+			{
+				name: "html",
+				color: "orange-text-gradient",
+			},
+			{
+				name: "css",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "matter.js",
+				color: "pink-text-gradient",
+			},
+		],
+		image: "/projectimg/sos.png",
+		deploy_link: "https://sos-matter.vercel.app/",
+	},
+	{
 		name: "L-Chat",
 		description:
 			"L-Chat, developed by L-Tech Company, is an AI-driven problem-solving system that processes user-uploaded files. I built the frontend using Nuxt, Vuetify, and Pinia for a seamless user experience and efficient state management.",
@@ -203,7 +224,7 @@ const projects :{
 			},
 		],
 		image: "/projectimg/upg.png",
-		deploy_link: "#",
+		deploy_link: "",
 	},
 	{
 		name: "ShweShops",
