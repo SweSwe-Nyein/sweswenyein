@@ -5,7 +5,7 @@ import React from "react";
 const ResumeButton = () => {
 	return (
 		<Link
-			href="/resume/Resume.pdf"
+			href="https://drive.google.com/drive/folders/1uIHFIzoblSkR-wHmHoSCVYhA2PnRPdrG?usp=drive_link"
 			target="_blank"
 			download
 		>
